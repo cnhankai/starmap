@@ -1,0 +1,19 @@
+extends ../layout
+block content
+  h1 General
+  .layout-content
+    .layout-menu
+      .general
+        .general-users 用户数
+        .general-lives 直播
+        .general-vods 点播
+    .layout-detail
+      .users
+        .users-map 用户分布地图（地图）
+        .users-class 用户分类（饼图）
+        .users-rate 功能使用比率（饼图）
+        .users-count 用户数（线状图）
+        .users-inch 用户电视机（柱状图）
+      .lives(style='display:none;') 直播数据
+      .vods(style='display:none;') 点播数据
+

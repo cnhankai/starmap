@@ -30,6 +30,8 @@ build/Release
 node_modules
 jspm_packages
 .idea
+bower_components
+*.css
 
 # Optional npm cache directory
 .npm
